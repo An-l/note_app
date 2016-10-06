@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Notes | coligo.io</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src='jquery-1.12.1.min.js'></script>
+</head>
+
+<body cz-shortcut-listen="true">
+    <div id="app">
+
+        <div id="toolbar">
+            <i id="addNote" class="glyphicon glyphicon-plus"></i>
+            <i id="favor" class="glyphicon glyphicon-star"></i>
+            <i id="delNote" class="glyphicon glyphicon-remove"></i>
+        </div>
+
+        <div id="notes-list">
+            <div id="list-header">
+                <h2>Notes | coligo</h2>
+                <div class="btn-group btn-group-justified" role="group">
+                    <!-- All Notes button -->
+                    <div class="btn-group" role="group">
+                        <button id="allTab" type="button" class="btn btn-default active">
+                            All Notes
+                        </button>
+                    </div>
+                    <!-- Favorites Button -->
+                    <div class="btn-group" role="group">
+                        <button id="favorTab" type="button" class="btn btn-default">
+                            Favorites
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- render notes in a list -->
+            <div class="container">
+                <div id="list" class="list-group">
+                    <!-- <a class="list-group-item" href="#">
+                        <h4 class="list-group-item-heading">
+          New note
+        </h4>
+                    </a> -->
+                </div>
+              <!--   <div id="favorList" class="list-group" style="display: none;">
+                    <a class="list-group-item" href="#">
+                        <h4 class="list-group-item-heading">
+          New note
+        </h4>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+
+        <div id="note-editor">
+            <textarea class="form-control"> </textarea>
+        </div>
+
+    </div>
+
+    <script src="build.js"></script>
+</body>
+
+</html>
