@@ -1,18 +1,18 @@
-学习vue和vuex
-### Install the dependencies
+# vuex-notes
 
-```bash
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
 npm install
-```
 
-### Run the dev server with hot reload at localhost:8080
-
-```bash
+# serve with hot reload at localhost:8080
 npm run dev
-```
 
-### Build the app for production
-
-```bash
+# build for production with minification
 npm run build
 ```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
